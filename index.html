@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartWinners</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Site header -->
+
+    <header class="header">
+      <div class="container">
+        <div class="header-info">
+          <a href="./index.html" class="logo-header"
+            ><img src="./images/logo.png" alt="Logo" width="278" height="60"
+          /></a>
+          <div class="personal-data">
+            <div class="account">
+              <p class="welcome-text">
+                Welcome <span class="username">Roma</span> —
+              </p>
+              <button type="button" class="logout-btn">Logout</button>
+            </div>
+            <p class="balance-text">
+              Your balance: <span class="balance">Р 0,00</span>
+            </p>
+          </div>
+
+          <div>
+            <ul class="social-media list">
+              <li class="social-media-item">
+                <a href="" aria-label="Facebook link" class="link">
+                  <svg width="16" height="16">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a href="" aria-label="Twitter link" class="link">
+                  <svg width="16" height="16">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a href="" aria-label="Facebook link" class="link">
+                  <svg width="16" height="16">
+                    <use
+                      href="./images/sprite.svg#icon-facebook-messenger"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-item">
+                <a href="" aria-label="Whatsapp link" class="link">
+                  <svg width="16" height="16">
+                    <use href="./images/sprite.svg#icon-whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+
+            <div class="language">
+              <svg class="usa-icon" width="20" height="14">
+                <use href="./images/sprite.svg#icon-united-states"></use>
+              </svg>
+              <select class="language-selection" id="language" name="language">
+                <option value="eng" selected>English</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-nav">
+          <ul class="site-nav list">
+            <li>
+              <a href="./index.html" class="link current">Home</a>
+            </li>
+            <li class="site-page">
+              <a href="" class="link">PLAY ALL lottery</a>
+            </li>
+            <li class="site-page">
+              <a href="" class="link">LOTTERY GROUPS</a>
+            </li>
+            <li class="site-page">
+              <a href="" class="link">Promotions</a>
+            </li>
+          </ul>
+          <a href="" class="my-account-link">My Account</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Unique page content-->
+
+    <main>
+      <!-- Hero -->
+
+      <section class="hero">
+        <div class="container">
+          <h1 class="visually-hidden">
+            Buy official tickets for any lottery in world
+          </h1>
+          <img
+            src="./images/banner.png"
+            alt="Banner"
+            width="1200"
+            height="462"
+          />
+        </div>
+      </section>
+
+      <!-- General information -->
+
+      <section class="features-section">
+        <div class="container">
+          <h2 class="visually-hidden">General information</h2>
+          <ul class="features-list list">
+            <li class="features-item">
+              <div class="features-icon">
+                <svg width="70" height="70">
+                  <use href="./images/sprite.svg#icon-laptop"></use>
+                </svg>
+              </div>
+              <div>
+                <div class="features-group">
+                  <h3 class="features-title">you pick</h3>
+                  <a href="" class="link">Play Now »</a>
+                </div>
+                <p class="features-text">
+                  It’s easy! Pick from over 40 official lottery games you wish
+                  to play. Then select your winning numbers.
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-icon"
+                src="./images/lotteries-shop.png"
+                alt="Lotteries Shop"
+                width="72"
+                height="72"
+              />
+              <div>
+                <div class="features-group">
+                  <h3 class="features-title">we buy</h3>
+                  <a href="" class="link">More Details »</a>
+                </div>
+                <p class="features-text">
+                  Once you’ve picked your winning numbers we’ll purchase your
+                  ticket on your behalf.
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-icon"
+                src="./images/money.png"
+                alt="Money"
+                width="81"
+                height="61"
+              />
+              <div>
+                <div class="features-group">
+                  <h3 class="features-title">you win!!!</h3>
+                  <a href="" class="link">Withdraw My Winnings »</a>
+                </div>
+                <p class="features-text">
+                  When you win, we’ll automatically credit your account the full
+                  value of your winnings.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- BIGGEST UPCOMING LOTTERY DRAWS -->
+
+      <section class="lottery-draws-section">
+        <div class="container">
+          <h2 class="lottery-draws-title">BIGGEST UPCOMING LOTTERY DRAWS</h2>
+          <ul class="upcoming-lottery list">
+            <li class="upcoming-lottery-item">
+              <img
+                src="./images/oz-lotto.png"
+                alt="OZ lotto"
+                width="141"
+                height="80"
+              />
+              <div class="upcoming-info">
+                <div class="upcoming-descr">
+                  <svg width="20" height="14" class="upcoming-descr-icon">
+                    <use href="./images/sprite.svg#icon-united-states"></use>
+                  </svg>
+                  <p class="upcoming-lottery-text">Mega Millions</p>
+                </div>
+                <p class="sum">$94 000 000</p>
+              </div>
+              <div class="play-now-zone">
+                <button type="button" class="play-now-btn">Play Now</button>
+                <div class="time-left">
+                  <svg width="18" height="18" class="alarm-icon">
+                    <use href="./images/sprite.svg#icon-alarm"></use>
+                  </svg>
+                  <p class="play-now-zone-time">1:22:01</p>
+                </div>
+              </div>
+            </li>
+            <li class="upcoming-lottery-item">
+              <div>
+                <svg width="141" height="80">
+                  <use href="./images/sprite.svg#icon-mega-millions-oval"></use>
+                </svg>
+              </div>
+              <div class="upcoming-info">
+                <div class="upcoming-descr">
+                  <svg width="20" height="14" class="upcoming-descr-icon">
+                    <use href="./images/sprite.svg#icon-united-states"></use>
+                  </svg>
+                  <p class="upcoming-lottery-text">Mega Millions</p>
+                </div>
+                <p class="sum">$94 000 000</p>
+              </div>
+              <div class="play-now-zone">
+                <button type="button" class="play-now-btn">Play Now</button>
+                <div class="time-left">
+                  <svg width="18" height="18" class="alarm-icon">
+                    <use href="./images/sprite.svg#icon-alarm"></use>
+                  </svg>
+                  <p class="play-now-zone-time">1:22:01</p>
+                </div>
+              </div>
+            </li>
+            <li class="upcoming-lottery-item">
+              <img
+                src="./images/us-power-ball.png"
+                alt="US power ball"
+                width="141"
+                height="80"
+              />
+              <div class="upcoming-info">
+                <div class="upcoming-descr">
+                  <svg width="20" height="14" class="upcoming-descr-icon">
+                    <use href="./images/sprite.svg#icon-united-states"></use>
+                  </svg>
+                  <p class="upcoming-lottery-text">Mega Millions</p>
+                </div>
+                <p class="sum">$94 000 000</p>
+              </div>
+              <div class="play-now-zone">
+                <button type="button" class="play-now-btn">Play Now</button>
+                <div class="time-left">
+                  <svg width="18" height="18" class="alarm-icon">
+                    <use href="./images/sprite.svg#icon-alarm"></use>
+                  </svg>
+                  <p class="play-now-zone-time">1:22:01</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PLAY UPCOMING LOTTERIES ONLINE -->
+
+      <section class="online">
+        <div class="container">
+          <h2 class="online-title">PLAY UPCOMING LOTTERIES ONLINE</h2>
+          <ul class="online-cards list">
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+            <li class="online-item">
+              <svg width="96" height="94" class="mega-millions-icon">
+                <use href="./images/sprite.svg#icon-mega-millions-circle"></use>
+              </svg>
+              <svg width="16" height="16" class="star-icon">
+                <use href="./images/sprite.svg#icon-star"></use>
+              </svg>
+              <div class="lottery-name">
+                <svg width="20" height="14" class="united-states-icon">
+                  <use href="./images/sprite.svg#icon-united-states"></use>
+                </svg>
+                <p class="lottery-text">Mega Millions</p>
+              </div>
+              <p class="winning-amount">$122 000 000</p>
+              <div class="alarm">
+                <svg width="16" height="16" class="alarm-small-icon">
+                  <use href="./images/sprite.svg#icon-alarm-small"></use>
+                </svg>
+                <p class="alarm-time">1:22:01</p>
+              </div>
+              <button type="button" class="play-now-btn">Play Now</button>
+            </li>
+          </ul>
+          <div class="link-wrapper">
+            <a href="" class="more-details-link">More Details »</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOTTERY WINNERS -->
+
+      <section class="winners-section">
+        <div class="container">
+          <div class="winners">
+            <div class="biggest-winner">
+              <h2 class="online-title">BIGGEST LOTTERY WINNER</h2>
+              <div class="winner-info">
+                <div class="won">
+                  <img
+                    class="lotto-image"
+                    src="./images/lotto-red-star.png"
+                    alt="Lotto logo"
+                    width="50"
+                    height="50"
+                  />
+                  <h3 class="won-title">
+                    Won <span class="won-amount">€100 000 000</span>
+                  </h3>
+                </div>
+                <div class="winner-container">
+                  <div class="winner-banner">
+                    <img
+                      class="current-winner-image"
+                      src="./images/current-winner.png"
+                      alt="Lottery winner"
+                      width="412"
+                      height="206"
+                    />
+                    <div class="lotto-results">
+                      <p class="lotto-results-text">UK Lotto results:</p>
+                      <div class="lotto-results-wrapper">
+                        <ul class="numbers-result list">
+                          <li class="numbers-result-item">
+                            <p class="ball-number">07</p>
+                          </li>
+                          <li class="numbers-result-item">
+                            <p class="ball-number">07</p>
+                          </li>
+                          <li class="numbers-result-item">
+                            <p class="ball-number">07</p>
+                          </li>
+                          <li class="numbers-result-item">
+                            <p class="ball-number">07</p>
+                          </li>
+                          <li class="numbers-result-item">
+                            <p class="ball-number">07</p>
+                          </li>
+                        </ul>
+                        <p class="features-text">Date: 20.11.2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="winner-about">
+                    <h4 class="winner-about-title">
+                      Shaun Vincent a Lottery Winner
+                    </h4>
+                    <p class="winner-about-text">
+                      Shaun Vincent, from Barnsley, celebrates his £1,158,038
+                      National Lottery win after his cheque presentation at the
+                      Cedar Court Hotel, Wakefield.
+                    </p>
+                    <p class="winner-about-story">
+                      <a href="" class="winner-about-link"
+                        >Read the full story</a
+                      >
+                    </p>
+                    <button class="play-link" type="button">Play Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-winners">
+              <h2 class="online-title">OUR LATEST WINNERS</h2>
+              <div class="prizes">
+                <p class="prizes-title">Total prizes paid out</p>
+                <p class="prizes-amount">US$ 107 233 768</p>
+                <div class="winning-tickets">
+                  <p class="tickets-amount">6 975 146</p>
+                  <p class="winning-tickets-text">winning tickets</p>
+                </div>
+              </div>
+              <ul class="list">
+                <li class="winners-item">
+                  <img
+                    class="latest-winner-image"
+                    src="./images/latest-winner.jpg"
+                    alt="Winner logo"
+                    width="75"
+                    height="58"
+                  />
+                  <div class="winners-data">
+                    <p class="date-of-won">20.11.2021</p>
+                    <div class="winner-id">
+                      <svg class="germany-icon" width="20" height="18">
+                        <use href="./images/sprite.svg#icon-germany"></use>
+                      </svg>
+                      <p class="winner-code">J.J won Р175</p>
+                    </div>
+                    <p class="ticket-number">in 7 ИЗ 49 draw #13476</p>
+                  </div>
+                </li>
+                <li class="winners-item">
+                  <img
+                    class="latest-winner-image"
+                    src="./images/latest-winner.jpg"
+                    alt="Winner logo"
+                    width="75"
+                    height="58"
+                  />
+                  <div class="winners-data">
+                    <p class="date-of-won">20.11.2021</p>
+                    <div class="winner-id">
+                      <svg class="germany-icon" width="20" height="18">
+                        <use href="./images/sprite.svg#icon-germany"></use>
+                      </svg>
+                      <p class="winner-code">J.J won Р175</p>
+                    </div>
+                    <p class="ticket-number">in 7 ИЗ 49 draw #13476</p>
+                  </div>
+                </li>
+                <li class="winners-item">
+                  <img
+                    class="latest-winner-image"
+                    src="./images/latest-winner.jpg"
+                    alt="Winner logo"
+                    width="75"
+                    height="58"
+                  />
+                  <div class="winners-data">
+                    <p class="date-of-won">20.11.2021</p>
+                    <div class="winner-id">
+                      <svg class="germany-icon" width="20" height="18">
+                        <use href="./images/sprite.svg#icon-germany"></use>
+                      </svg>
+                      <p class="winner-code">J.J won Р175</p>
+                    </div>
+                    <p class="ticket-number">in 7 ИЗ 49 draw #13476</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FREQUENTLY ASKED QUESTION (F.A.Q.) -->
+
+      <section class="faq-section">
+        <div class="container">
+          <h2 class="faq-title">FREQUENTLY ASKED QUESTION (F.A.Q.)</h2>
+          <ul class="list questions">
+            <li class="qustions-item">
+              <p class="question-text">Can I play the lottery online?</p>
+              <svg class="icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-expand-more"></use>
+              </svg>
+            </li>
+            <li class="qustions-item">
+              <p class="question-text">How will I get my wins?</p>
+              <svg class="icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-expand-more"></use>
+              </svg>
+            </li>
+            <li class="qustions-item">
+              <p class="question-text">Is it safe to play lottery online?</p>
+              <svg class="icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-expand-more"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+
+    <footer class="page-footer">
+      <div class="footer-social-links">
+        <svg class="icon whatsapp-large-icon" width="36" height="36">
+          <use href="./images/sprite.svg#icon-whatsapp-large"></use>
+        </svg>
+        <a href="" class="whatsapp-chat">
+          <span class="descr">Live chat by WhatsApp</span
+          ><span class="whatsapp-service">Customer Service</span>
+        </a>
+        <ul class="studio-links list">
+          <li class="studio-community">
+            <a href="" aria-label="Facebook link" class="link">
+              <svg class="icon" width="36" height="36">
+                <use href="./images/sprite.svg#icon-facebook-large"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="studio-community">
+            <a href="" aria-label="Twitter link" class="link">
+              <svg class="icon" width="36" height="36">
+                <use href="./images/sprite.svg#icon-twitter-large"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="studio-community">
+            <a href="" aria-label="Facebook Messenger link" class="link">
+              <svg class="icon" width="36" height="36">
+                <use
+                  href="./images/sprite.svg#icon-facebook-messenger-large"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="company-info">
+        <div class="useful-links">
+          <h3 class="useful-title">USEFUL LINKS</h3>
+          <ul class="list">
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Lottery Results & Winners</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Lottery Promotions</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">About Us</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Contact Us</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Terms & Conditions</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Security</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Privacy Policy</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Acceptable Use Policy</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Website Use Policy</a>
+            </li>
+            <li class="useful-item">
+              <a href="" class="useful-item-link">Affiliate program</a>
+            </li>
+          </ul>
+        </div>
+        <div class="smartwinners">
+          <h3 class="useful-title">SMARTWINNERS</h3>
+          <p class="smartwinners-text">
+            The trade name SmartWinners and all content on this website is a
+            copyright of SmartWinners Limited. All rights reserved. We are an
+            independent lottery ticket purchasing service. We are not affiliated
+            with nor are we endorsed by any State sanctioned lottery
+            organization. We make no claims on our site to be such.
+          </p>
+          <address class="company-address">
+            <p class="company-location">
+              Our registered business address is Unit 6158, PO Box 6945, London,
+              W1A 6US, United Kingdom.
+            </p>
+          </address>
+        </div>
+        <div class="other-links">
+          <h3 class="payment-title">PAYMENT METHODS</h3>
+          <ul class="payment-methods list">
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-visa-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-master-card-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-maestro-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-diners-club-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-skrill-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <svg width="44" height="26">
+                <use href="./images/sprite.svg#icon-bitcoin-dark"></use>
+              </svg>
+            </li>
+            <li class="payment-methods-item">
+              <img
+                src="./images/qiwi.png"
+                alt="Qiwi logo"
+                width="44"
+                height="26"
+              />
+            </li>
+            <li class="payment-methods-item">
+              <img
+                src="./images/hsbc.png"
+                alt="HSBC logo"
+                width="44"
+                height="26"
+              />
+            </li>
+            <li class="payment-methods-item">
+              <img
+                src="./images/litecoin.png"
+                alt="Litecoin logo"
+                width="44"
+                height="26"
+              />
+            </li>
+          </ul>
+          <h3 class="payment-title">SECURITY & TRUST</h3>
+          <ul class="security list">
+            <li class="payment-methods-item">
+              <img
+                src="./images/ctv.png"
+                alt="CTV logo"
+                width="64"
+                height="72"
+              />
+            </li>
+            <li class="payment-methods-item">
+              <img
+                src="./images/comodo.png"
+                alt="Comodo logo"
+                width="66"
+                height="55"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
