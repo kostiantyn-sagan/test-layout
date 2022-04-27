@@ -215,7 +215,6 @@ img {
 
 .features-item {
   display: flex;
-  align-items: center;
   width: calc((100% - 30px) / 3);
   border: 1px solid var(--border-color);
   border-radius: 8px;
@@ -282,6 +281,7 @@ img {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 5px 38px 64px 28px;
@@ -292,7 +292,7 @@ img {
 .upcoming-descr {
   display: flex;
   align-items: center;
-  margin-bottom: 6px;
+  margin-bottom: 14px;
 }
 
 .upcoming-info {
