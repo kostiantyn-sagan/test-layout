@@ -128,15 +128,23 @@ img {
 }
 
 .usa-icon {
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .language-selection {
   border: none;
+  display: block;
+  margin-right: 6px;
+
+  appearance: none;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.5;
   color: var(--primary-text-color);
+}
+
+.language-selection::-ms-expand {
+  display: none;
 }
 
 /* Site-nav */
@@ -595,6 +603,8 @@ img {
 
 .mega-millions-icon {
   margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .star-icon {
